@@ -24,8 +24,10 @@ const Post = props => {
       <div className="post-image-wrapper">
         <img alt="post thumbnail" className="post-image" src={props.post.imageUrl} />
       </div>
+      <p className="timestamp">{props.post.timestamp}</p>
       <LikeSection likes={likes} incrementLikes={addLikes} />
       <CommentSection postId={props.post.imageUrl} comments={props.post.comments} />
+
     </div>
   );
 };

@@ -4,7 +4,7 @@
   min-width: 400px;
   margin: 5px auto;
 }
-.post-header{
+.post-header {
   display: flex;
   align-items: center;
 }
@@ -38,6 +38,13 @@
   height: 80%;
   margin: 5px;
   border-radius: 50%;
+}
+
+.timestamp {
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
 }
 .like-section {
   display: flex;
